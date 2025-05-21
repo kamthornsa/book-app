@@ -8,12 +8,27 @@ import Sidebar from "./components/Sidebar";
 function App() {
   return (
     <>
-      <Header />
-      <div class="flex flex-row">
-        <Sidebar />
-        <Content />
+      <div className="min-h-screen flex flex-col bg-gray-50">
+        <Header />
+        <main className="flex flex-1">
+
+          <BrowserRouter>
+            <Sidebar />
+            <section className="flex-1 p-6">
+              <Routes>
+                <Route path="/" element={<h1>หน้าแรก</h1>} />
+                <Route
+                  path="/about"
+                  element={<h1 className="text-xl">เกี่ยวกับเรา</h1>}
+                />
+                <Route path="/contact" element={<h1>ติดต่อเรา</h1>} />
+              </Routes>
+            </section>
+          </BrowserRouter>
+
+        </main>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }
