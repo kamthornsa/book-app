@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Sidebar from "./components/Sidebar";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -11,12 +12,11 @@ function App() {
       <div className="min-h-screen flex flex-col bg-gray-50">
         <Header />
         <main className="flex flex-1">
-
           <BrowserRouter>
             <Sidebar />
             <section className="flex-1 p-6">
               <Routes>
-                <Route path="/" element={<h1>หน้าแรก</h1>} />
+                <Route path="/" element={<Home />} />
                 <Route
                   path="/about"
                   element={<h1 className="text-xl">เกี่ยวกับเรา</h1>}
@@ -25,7 +25,6 @@ function App() {
               </Routes>
             </section>
           </BrowserRouter>
-
         </main>
         <Footer />
       </div>
