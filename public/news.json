@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "totalResults": 3,
+  "articles": [
+    {
+      "id": 1,
+      "author": "ทีมข่าว",
+      "title": "อากาศร้อนจัด! กรมอุตุเตือนทั่วประเทศเตรียมรับมือ",
+      "description": "กรมอุตุนิยมวิทยาออกประกาศเตือนอากาศร้อนจัดในหลายพื้นที่ทั่วประเทศ",
+      "url": "https://example.com/news/weather-alert",
+      "urlToImage": "https://example.com/images/weather.jpg",
+      "publishedAt": "2025-05-22T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "author": "นักข่าวเศรษฐกิจ",
+      "title": "เงินบาทแข็งค่า ส่งผลกระทบต่อผู้ส่งออก",
+      "description": "ผู้ประกอบการเตรียมปรับกลยุทธ์หลังเงินบาทแข็งค่าแตะระดับสูงสุดในรอบ 6 เดือน",
+      "url": "https://example.com/news/economy-thb",
+      "urlToImage": "https://example.com/images/money.jpg",
+      "publishedAt": "2025-05-22T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "author": "ทีมไอที",
+      "title": "เปิดตัวสมาร์ทโฟนรุ่นใหม่จากแบรนด์ดัง ฟีเจอร์จัดเต็ม",
+      "description": "สมาร์ทโฟนรุ่นล่าสุดมาพร้อมกล้อง AI และจอแสดงผล 120Hz",
+      "url": "https://example.com/news/tech-phone-launch",
+      "urlToImage": "https://example.com/images/phone.jpg",
+      "publishedAt": "2025-05-22T09:00:00Z"
+    }
+  ]
+}
